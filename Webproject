@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northwestern</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        #top-bar {
+            background-color: #330066; /* Dark Purple */
+            color: #fff;
+            padding: 10px;
+            text-align: right;
+        }
+
+        #top-bar a {
+            color: #fff; /* White */
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        #top-bar span {
+            color: #ff9900; /* Orange */
+            font-weight: bold;
+        }
+
+        header {
+            background-color: #4e2a84;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: lighter; /* Thinner font */
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header form {
+            display: flex;
+            align-items: center;
+        }
+
+        header input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            font-size: 14px;
+            width: 200px;
+            background-color: #542a74; /* Purple */
+            color: #fff; /* White */
+            font-weight: lighter; /* Thinner font */
+            border-bottom: 2px solid #fff; /* Thin line under the search field */
+        }
+
+        header button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            background-color: #6b3eaa;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        header button:hover {
+            background-color: #542a74;
+        }
+
+        nav {
+            background-color: #fff;
+            text-align: center;
+            border-bottom: 2px solid #4e2a84;
+        }
+
+        nav a {
+            color: #4e2a84;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            display: inline-block; /* Display links horizontally */
+        }
+
+        nav a:hover {
+            background-color: #4e2a84;
+            color: #fff;
+        }
+
+        nav i {
+            margin-right: 5px;
+        }
+
+        /* Added section for images and text */
+        #live-jazz-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        #live-jazz-section img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #live-jazz-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-bar">
+        <a href="#">Students</a>
+        <a href="#">Parents & Families</a>
+        <a href="#">Alumni</a>
+        <a href="#">Faculty & Staff</a>
+        <a href="#">Media</a>
+        <span>QUICK LINKS</span>
+    </div>
+
+    <header>
+        <h1>Northwestern</h1>
+        
+        <form action="#" method="get">
+            <input type="text" placeholder="Search web or people">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </header>
+
+    <nav>
+        <a href="#"><i class="fas fa-graduation-cap"></i> Academics</a>
+        <a href="#"><i class="fas fa-user-graduate"></i> Admissions</a>
+        <a href="#"><i class="fas fa-building"></i> Campus Experience</a>
+        <a href="#"><i class="fas fa-flask"></i> Research</a>
+        <a href="#"><i class="fas fa-gift"></i> Giving</a>
+    </nav>
+
+    <!-- Added section for images and text -->
+    <div id="live-jazz-section">
+        <h2>Live Jazz</h2>
+        <img src="image1.jpg" alt="Live Jazz Image 1">
+        <img src="image2.jpg" alt="Live Jazz Image 2">
+        <img src="image3.jpg" alt="Live Jazz Image 3">
+        <img src="image4.jpg" alt="Live Jazz Image 4">
+    </div>
+
+    <!-- Make sure to include the FontAwesome library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
